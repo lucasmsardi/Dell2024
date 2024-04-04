@@ -1,0 +1,19 @@
+.submit {
+  background-color: aliceblue;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.submit:hover {
+  border: 3px solid #000000;
+}
+
+form {
+  font-family: "Truculenta", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

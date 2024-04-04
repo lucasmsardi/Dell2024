@@ -1,0 +1,13 @@
+.fase-um {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family: "Truculenta", sans-serif;
+    height: 60px;
+    width: 650px;
+    border: 3px solid #ccc;
+    border-radius: 16px;
+    padding: 12px;
+    background-color: aliceblue;
+    text-align: center;
+}

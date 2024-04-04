@@ -1,0 +1,32 @@
+.header {
+  height: 50px;
+  width: 100%;
+  font-family: "Truculenta", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  background-color: chartreuse;
+  font-size: 44px;
+}
+
+.header-image {
+  width: 100px;
+  height: 100px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  animation: spin 1s linear;
+  animation-iteration-count: 2;
+}

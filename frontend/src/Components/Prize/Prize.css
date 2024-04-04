@@ -1,0 +1,10 @@
+.barras-de-ouro {
+  width: 40px;
+  height: auto;
+}
+
+.prize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
